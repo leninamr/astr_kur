@@ -58,7 +58,7 @@ void List::push_back(Node* newElem)
 void List::print_to_console() {
 	Node* current = head;
 	while (current != nullptr) {
-		if (!((current->data[0] == '0') && (current->data.size() == 1)))
+		//if (!((current->data[0] == '0') && (current->data.size() == 1)))
 			cout << current->data<<' ' ;
 		current = current->next;
 	}
